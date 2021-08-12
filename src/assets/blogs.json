@@ -1,0 +1,8 @@
+[
+    {"name" :"kingshuk", "form" :"<strong>this is shortForm of quotes</strong>", "quotes" :"<strong>hello this is one data</strong>", "category" :"Generic", "flag" :"./assets/man.png"},
+    {"name" :"diya", "form" :"<strong>this is shortForm of quotes</strong>", "quotes" :"<strong>hello this is one data</strong>", "category" :"dance", "flag" :"./assets/man.png"},
+    {"name" :"manasa", "form" :"<strong>this is shortForm of quotes</strong>", "quotes" :"<strong>hello this is one data</strong>", "category" :"cooking", "flag" :"./assets/man.png"},
+    {"name" :"goutam", "form" :"<strong>this is shortForm of quotes</strong>", "quotes" :"<strong>hello this is one data</strong>", "category" :"fight", "flag" :"./assets/man.png"},
+    {"name" :"kingshuk", "form" :"<strong>this is shortForm of quotes</strong>", "quotes" :"<strong>hello this is one data</strong>", "category" :"Generic", "flag" :"./assets/man.png"}
+
+]

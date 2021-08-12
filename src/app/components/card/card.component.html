@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="row">
+        <div class="blogcontainer col-lg-7">
+            <div class="modal-body">
+                PostedBy:- <strong> {{ blog.name }}</strong>
+            </div>
+            <div class="modal-body">
+                Description:- 
+                <p [innerHTML]="blog.quotes"></p>
+            </div>
+        </div>
+        <div class="col-lg-5 a">
+            <img src="{{blog.flag}}">
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-sm btn-primary" (click)="onSend(blog)">ShowDetails</button>
+        Category :- <strong> {{ blog.category }}</strong>
+    </div>
+
+</div>

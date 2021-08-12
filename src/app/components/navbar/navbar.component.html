@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-warning fix-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><button class="badge badge-primary">TBlog</button></a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/blog-list']" ><button class="btn btn-md btn-outline-info text-dark font-weight-bold">Home</button><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"><button class="btn btn-md btn-outline-info text-dark font-weight-bold">About</button></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/page-support']"><button class="btn btn-md btn-outline-info text-dark font-weight-bold">SupportUs</button></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" >
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" #s>
+        <button class="btn btn-outline-info my-2 my-sm-0 text-dark font-weight-bold" type="button" (click)="Send(s)">Search</button>
+        <ul class="navbar-nav mr-auto p-2">
+          <li class="nav-item active">
+            <a class="nav-link" ><button class="btn btn-md btn-outline-info text-dark font-weight-bold">LogIn/SignIn</button></a>
+          </li>
+        </ul>
+      </form>
+  
+    </div>
+  </nav>
+
+  
